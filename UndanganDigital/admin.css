@@ -1,0 +1,15 @@
+body{
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 4000px ;
+}
+
+.resepsi{
+    position: relative;
+    min-height: 100vh;
+}
+
+.resepsi h1{
+    font-family: 'Sacramento';
+    font-size: 3rem;
+}

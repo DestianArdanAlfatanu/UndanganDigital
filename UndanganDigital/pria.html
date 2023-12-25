@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pria.css">
+    <title>Mempelai Pria</title>
+</head>
+
+<body>
+    <div class="container">
+    <div class="form">
+    <h1>Masukkan Data Mempelai Pria</h1>
+    <form action="pria.html" method="post"> <!-- Perbaiki formulir di sini -->
+        <table>
+            <tr>
+                <td>Nama Mempelai Pria</td>
+                <td><input type="text" name="namapria" required></td>
+            </tr>
+            <tr>
+                <td>Nama Ayah Mempelai Pria</td>
+                <td><input type="text" name="ayahpria" required></td>
+            </tr>
+            <tr>
+                <td>Nama Ibu Mempelai Pria</td>
+                <td><input type="text" name="ibupria" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" name="tambah">Tambah</button></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <div class="daftar">
+    <h2>Tabel Mempelai Pria</h2>
+    <table border="1" style="border-collapse: collapse;" cellpadding='5'>
+        <tr>
+            <th>ID</th>
+            <th>Nama Mempelai Pria</th>
+            <th>Nama Ayah Mempelai Pria</th>
+            <th>Nama Ibu Mempelai Pria</th>
+        </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><a href = ''>Edit</a>
+                | <a href = ''>Hapus</a></td>
+    </table>
+    </div>
+    <div class="nxt">
+    <a href="wanita.php">Next</a>
+    </div>
+    <div class="edit">
+    <h2>Edit Mempelai Pria</h2>
+    <form action="pria.php" method="post">
+        <table>
+            <tr>
+                <td>Nama Mempelai Pria</td>
+                <td><input type="text" name="namapria" required value=""></td>
+            </tr>
+            <tr>
+                <td>Nama Mempelai Ayah Pria</td>
+                <td><input type="text" name="ayahpria" required value=""></td>
+            </tr>
+            <tr>
+                <td>Nama Mempelai Ibu Pria</td>
+                <td><input type="text" name="ibupria" required value=""></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" name="id_mempelaipria" value=""></td>
+                <td><button type="submit" name="ubah">Ubah</button></td>
+            </tr>
+        </table>
+        
+    </form>
+</div>
+    <!-- Perbaiki formulir di sini -->
+</div>
+</body>
+
+</html>
